@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Lektion1_Shape.jnlp">
+  <information>
+    <title>Lektion1_Shape</title>
+    <vendor>aalsc</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Lektion1_Shape.jar" size="10227" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Lektion1_Shape" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="lektion1_shape.Lektion1_Shape"  name="Lektion1_Shape" />
+  <update check="always"/>
+</jnlp>
